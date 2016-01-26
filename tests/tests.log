@@ -1,0 +1,122 @@
+DEBUG main:tests/list_tests.c:61: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:54: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:55: 
+----- test_destroy
+DEBUG all_tests:tests/list_tests.c:56: 
+----- test_push_pop
+DEBUG main:tests/list_tests.c:61: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:54: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:55: 
+----- test_destroy
+DEBUG all_tests:tests/list_tests.c:56: 
+----- test_push_pop
+DEBUG main:tests/list_tests.c:61: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:54: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:55: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:61: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:54: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:55: 
+----- test_destroy
+DEBUG all_tests:tests/list_tests.c:56: 
+----- test_push_pop
+DEBUG main:tests/list_tests.c:61: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:54: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:55: 
+----- test_destroy
+DEBUG all_tests:tests/list_tests.c:56: 
+----- test_push_pop
+DEBUG main:tests/list_tests.c:63: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:56: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_destroy
+DEBUG all_tests:tests/list_tests.c:58: 
+----- test_push_pop
+DEBUG main:tests/list_tests.c:64: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:58: 
+----- test_destroy
+list_tests(3082,0x7fff7a1b0310) malloc: *** error for object 0x7fcc79403a70: pointer being freed was not allocated
+*** set a breakpoint in malloc_error_break to debug
+DEBUG main:tests/list_tests.c:64: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:58: 
+----- test_destroy
+list_tests(3141,0x7fff7a1b0310) malloc: *** error for object 0x7ff9e0403a70: pointer being freed was not allocated
+*** set a breakpoint in malloc_error_break to debug
+DEBUG main:tests/list_tests.c:64: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:58: 
+----- test_destroy
+list_tests(3272,0x7fff7a1b0310) malloc: *** error for object 0x7ff14ac03a70: pointer being freed was not allocated
+*** set a breakpoint in malloc_error_break to debug
+DEBUG main:tests/list_tests.c:63: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:56: 
+----- test_create
+DEBUG main:tests/list_tests.c:63: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:63: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:63: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:63: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:63: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:63: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:63: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:63: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:63: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:57: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:35: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:29: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:30: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:35: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:29: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:30: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:35: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:30: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:39: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:34: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:39: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:33: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:34: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:39: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:33: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:34: 
+----- test_destroy
+DEBUG main:tests/list_tests.c:39: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:33: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:34: 
+----- test_destroy
