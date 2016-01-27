@@ -20,11 +20,9 @@ void List_Destroy(List *list)
 
 void List_Clear(List *list)
 {
-  if (list) {
-    LIST_FOREACH(list, first, next, cur) {
-      if (cur->value) {
-        free(cur->value);
-      }
+  LIST_FOREACH(list, first, next, cur) {
+    if (cur->value) {
+      free(cur->value);
     }
   }
 }
