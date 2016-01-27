@@ -16,8 +16,10 @@ void setup()
 
 void teardown()
 {
-  List_Clear_Destroy(list);
-  list = NULL;
+  if (list != NULL) {
+    List_Clear_Destroy(list);
+    list = NULL;
+  }
 }
 
 char *test_create()
@@ -88,6 +90,34 @@ char *test_unshift()
   return NULL;
 }
 
+char *test_remove()
+{
+  // we only need to test the middle remove case since push/shift
+  // already tests the other cases
+  setup();
+
+  char *val = List_Remove(list, list->first->next);
+  mu_assert(val == test2, "Wrong removed element.");
+  mu_assert(List_Count(list) == 2, "Wrong count after remove.");
+  mu_assert(List_First(list) == test3, "Wrong first after remove.");
+  mu_assert(List_Last(list) == test1, "Wrong last after remove.");
+
+  return NULL;
+}
+
+char *test_shift()
+{
+  mu_assert(List_Count(list) != 0, "Wrong count before shift.");
+
+  char *val = List_Shift(list);
+  mu_assert(val == test3, "Wrong value on shift.");
+
+  val = List_Shift(list);
+  mu_assert(val == test1, "Wrong value on shift.");
+  mu_assert(List_Count(list) == 0, "Wrong count after shift.");
+
+  return NULL;
+}
 
 char *all_tests()
 {
@@ -97,6 +127,8 @@ char *all_tests()
   mu_run_test(test_destroy);
   mu_run_test(test_push_pop);
   mu_run_test(test_unshift);
+  mu_run_test(test_remove);
+  mu_run_test(test_shift);
 
   return NULL;
 }
