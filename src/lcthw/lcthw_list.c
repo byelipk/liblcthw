@@ -29,8 +29,14 @@ void List_Clear(List *list)
 
 void List_Clear_Destroy(List *list)
 {
-  List_Clear(list);
-  List_Destroy(list);
+  LIST_FOREACH(list, first, next, cur) {
+    if (cur->prev) {
+      free(cur->prev);
+    }
+
+    if (list->last) free(list->last);
+    if (list) free(list);
+  }
 }
 
 void List_Push(List *list, void *value)
