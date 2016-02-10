@@ -1,3 +1,4 @@
 /build/*
 /tests/tests.log
 /tests/list_tests.dSYM
+/src/*/*.o
