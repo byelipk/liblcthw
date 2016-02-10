@@ -540,3 +540,16 @@ DEBUG all_tests:tests/list_tests.c:130:
 ----- test_remove
 DEBUG all_tests:tests/list_tests.c:131: 
 ----- test_shift
+DEBUG main:tests/list_tests.c:136: ----- RUNNING: ./tests/list_tests
+DEBUG all_tests:tests/list_tests.c:126: 
+----- test_create
+DEBUG all_tests:tests/list_tests.c:127: 
+----- test_destroy
+DEBUG all_tests:tests/list_tests.c:128: 
+----- test_push_pop
+DEBUG all_tests:tests/list_tests.c:129: 
+----- test_unshift
+DEBUG all_tests:tests/list_tests.c:130: 
+----- test_remove
+DEBUG all_tests:tests/list_tests.c:131: 
+----- test_shift
